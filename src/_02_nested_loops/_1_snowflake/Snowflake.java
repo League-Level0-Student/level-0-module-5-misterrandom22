@@ -9,6 +9,7 @@ public class Snowflake {
 
 		// #1. Make a new Robot
 		Robot hal = new Robot();
+		hal.hide();
 
 		// #2. Set your robot’s position to x=300 and y=300
 		hal.moveTo(300, 300);
