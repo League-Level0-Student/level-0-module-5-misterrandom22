@@ -1,3 +1,4 @@
+//finished
 package _03_method_writing._1_obedient_robot;
 import javax.swing.JOptionPane;
 import java.awt.Color;

@@ -1,6 +1,8 @@
 package _03_method_writing._2_happy_pet;
 import javax.swing.JOptionPane;
 
+// work in progress
+
 public class HappyPet {
 	
 	// 2. Add the following variable to the next line: static int happinessLevel = 0;
