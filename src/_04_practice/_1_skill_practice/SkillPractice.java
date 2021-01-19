@@ -10,8 +10,8 @@ public static void main(String[] args) {
 SkillPractice skills = new SkillPractice();
            //skills.skill1();
            //skills.skill2();
-           skills.skill3();
-           skills.skill4();
+           //skills.skill3();
+           //skills.skill4();
            skills.skill5();
 }
 
@@ -94,25 +94,33 @@ else {
 
 
 // Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
-
+String carsString = JOptionPane.showInputDialog("how many cars do you have?");
+int cars = Integer.parseInt(carsString);
+if (cars==0) {
+	JOptionPane.showMessageDialog(null, "I bet you use public transportation");
+}
 
 
 // If there is 1 car, use a pop-up to display the make/model of the car 
-
+else if (cars == 1) {
+	JOptionPane.showMessageDialog(null, "honda fit");
+}
 
 
 // If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them. 
-
+else if (cars>=2) {
+	JOptionPane.showMessageDialog(null, "there are "+(cars*4)+" wheels.");
+}
 
 
 }
 
 void skill5() { // In a pop-up, ask the user for the name of their school 
-
+String skool = JOptionPane.showInputDialog("What is the name of your school?");
 
 
 // In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
-
+JOptionPane.showMessageDialog(null, skool+" is a fantastic school");
 
 
 }
